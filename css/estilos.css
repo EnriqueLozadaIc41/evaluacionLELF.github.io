@@ -2,10 +2,26 @@
 @import "mi-footer.css";
 @import "listas.css";
 
-:root {
+:root 
+
+
+body, html {
+
+  height: 100%;
+
+  background-repeat: no-repeat;
+
+  background: url(../cmp/img/full-moon-forest-4k.jpg) no-repeat center center fixed;
+
+  background-size: 100% 100%;
+
+}
+
+{
+  
   font-family: sans-serif;
-  --col-active: #dc3545;
-  --color-header: gray;
+  --col-active: #4646462c;
+  --color-header: white;
   --colorMiNav: white;
 }
 
@@ -16,8 +32,8 @@ body {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
+  position: center;
+  position: center;
   top: 0;
   background-color:
     var(--color-header);
@@ -39,6 +55,7 @@ header input {
 }
 
 h1 {
+  color: aliceblue;
   margin: 0.5rem 0;
 }
 
@@ -48,12 +65,14 @@ figure img {
 
 legend,
 p label {
+  color: aliceblue;
   display: block;
   font-weight: bold;
   font-size: 0.7rem;
 }
 
 p label>* {
+  color: aliceblue;
   display: block;
   font-weight: normal;
   font-size: 1rem;
